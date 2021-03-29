@@ -36,5 +36,5 @@ jobs:
         run: 
           npm install -g surge
             name : deploy on surge 
-            run : surge ./ boot2020_badar --token 04d152ec184a212b037f169759a5d822 
+            run : surge ./ boot2020_badar --token ${(secrtrs.BADAR_TOKEN)} 
             
